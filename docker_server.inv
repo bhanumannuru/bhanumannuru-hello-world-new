@@ -1,2 +1,2 @@
-docker
+[docker]
 172.31.10.146 ansible_user=jenadmin
