@@ -38,7 +38,7 @@
     - name: Start the container
       docker_container:
         name: hello-world
-        image: "bhanumannuru-hello-world:91270cc"
+        image: "bhanudevops106/bhanumannuru-hello-world:91270cc"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
