@@ -38,7 +38,7 @@
     - name: Start the container
       docker_container:
         name: hello_world
-        image: "bhanumannuru/hello-world:a4a1dd4"
+        image: "bhanumannuru-hello-world:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
